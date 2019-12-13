@@ -15,11 +15,12 @@ https://github.com/cucumber/cucumber-cpp v0.5
 
 ## Gtest
 ### from https://www.eriksmistad.no/getting-started-with-google-test-on-ubuntu/
-`sudo apt-get install libgtest-dev`
-`sudo apt-get install cmake`
-`cd /usr/src/gtest`
-`sudo cmake CMakeLists.txt`
-`sudo make`
+`sudo apt-get install libgtest-dev`  
+`sudo apt-get install cmake`  
+`cd /usr/src/gtest`  
+`sudo cmake CMakeLists.txt`  
+`sudo make`  
+
 ### copy or symlink libgtest.a and libgtest_main.a to your /usr/lib folder
 `sudo cp *.a /usr/lib`
 
@@ -27,24 +28,25 @@ https://github.com/cucumber/cucumber-cpp v0.5
 
 https://github.com/tpuronen/cppspec v0.5
 
-`sudo cmake CMakeLists.txt`
-`sudo make`
+`sudo cmake CMakeLists.txt`  
+`sudo make`  
 
 ## GMock
 do nothing, apparently part of google test anyway
 
 ## Cucumber-Ruby
-`sudo apt install ruby-dev`
-`sudo apt install ruby`
-`sudo gem install bundler`
-`cd` <cucumber-cpp clone dir>
-`bundle install`
+`sudo apt install ruby-dev`  
+`sudo apt install ruby`  
+`sudo gem install bundler`  
+`cd` <cucumber-cpp clone dir>  
+`bundle install`  
+
 
 ## Building cucumber-cpp
 
 ### Download test suite
-`git submodule init`
-`git submodule update`
+`git submodule init`  
+`git submodule update`  
 
 ### Create build directory
 `cmake -E make_directory build`
