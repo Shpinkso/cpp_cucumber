@@ -38,7 +38,7 @@ do nothing, apparently part of google test anyway
 `sudo apt install ruby-dev`  
 `sudo apt install ruby`  
 `sudo gem install bundler`  
-`cd` <cucumber-cpp clone dir>  
+`cd \<cucumber-cpp clone dir\>`  
 `bundle install`  
 
 
