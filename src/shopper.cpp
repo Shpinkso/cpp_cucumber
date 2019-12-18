@@ -27,13 +27,14 @@ void shopper::addToBasket(product_type p)
 
 void shopper::removeFromBasket(product_type p)
 {
-    try
+    std::list<product_type>::iterator it = products.begin();
+    for (; it != products.end(); ++it)
     {
-        products.remove(p);
-    }
-    catch(const std::exception& e)
-    {
-        std::cerr << e.what() << '\n';
+        if(*it == p)
+        {
+            products.erase(it);
+            break;
+        }
     }
 }
 

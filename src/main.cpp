@@ -29,6 +29,7 @@ int main(int argc, const char* argv[])
     mary.addToBasket(bread);
     mary.addToBasket(cabbage);
 
+    mary.removeFromBasket(peas);
     mary.removeFromBasket(cabbage);
 
     marys_shop = mary.ringUp(pricelist);

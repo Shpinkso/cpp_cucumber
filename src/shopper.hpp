@@ -1,6 +1,6 @@
 #ifndef SHOPPER_HPP
 #define SHOPPER_HPP
-
+#include <list>
 class shopper {
     private:
         const std::string name;
