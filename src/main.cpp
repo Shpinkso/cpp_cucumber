@@ -41,8 +41,6 @@ int main(int argc, const char* argv[])
     tony.addToBasket(chocolate);
     tony.addToBasket(chocolate);
 
-    tony.removeFromBasket(cabbage); // should cause an exception.
-
     tonys_shop = tony.ringUp(pricelist);
 
     std::cout << "Tony spent: " << tonys_shop << "\n";

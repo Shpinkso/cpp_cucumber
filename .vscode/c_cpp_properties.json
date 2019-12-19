@@ -6,13 +6,15 @@
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/include",
                 "${workspaceFolder}/features/step_definitions",
-                "/home/paul/git/cucumber-cpp/include"
+                "/home/paul/git/cucumber-cpp/include",
+                "/home/paul/git/cucumber-cpp/build/src"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
             "cStandard": "c11",
             "cppStandard": "c++17",
-            "intelliSenseMode": "clang-x64"
+            "intelliSenseMode": "clang-x64",
+            "configurationProvider": "vector-of-bool.cmake-tools"
         }
     ],
     "version": 4
