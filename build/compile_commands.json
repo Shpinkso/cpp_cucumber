@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/paul/git/my_cpp_cucumber/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7    -g   -o CMakeFiles/Shopping.dir/main.cpp.o -c /home/paul/git/my_cpp_cucumber/main.cpp",
+  "file": "/home/paul/git/my_cpp_cucumber/main.cpp"
+}
+]
